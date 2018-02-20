@@ -1,0 +1,15 @@
+/home/dn111292kar1/Downloads/23/crm/node_modules/mysql/lib/protocol/Parser.js:80
+        throw err; // Rethrow non-MySQL errors
+        ^
+
+Error
+    at Query._callback (/home/dn111292kar1/Downloads/23/crm/routes/customers.js:73:19)
+    at Query.Sequence.end (/home/dn111292kar1/Downloads/23/crm/node_modules/mysql/lib/protocol/sequences/Sequence.js:88:24)
+    at Query.ErrorPacket (/home/dn111292kar1/Downloads/23/crm/node_modules/mysql/lib/protocol/sequences/Query.js:90:8)
+    at Protocol._parsePacket (/home/dn111292kar1/Downloads/23/crm/node_modules/mysql/lib/protocol/Protocol.js:279:23)
+    at Parser.write (/home/dn111292kar1/Downloads/23/crm/node_modules/mysql/lib/protocol/Parser.js:76:12)
+    at Protocol.write (/home/dn111292kar1/Downloads/23/crm/node_modules/mysql/lib/protocol/Protocol.js:39:16)
+    at Socket.<anonymous> (/home/dn111292kar1/Downloads/23/crm/node_modules/mysql/lib/Connection.js:103:28)
+    at Socket.emit (events.js:160:13)
+    at addChunk (_stream_readable.js:269:12)
+    at readableAddChunk (_stream_readable.js:256:11)
